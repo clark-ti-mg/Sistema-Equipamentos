@@ -1,8 +1,81 @@
-'EOF'
+# Backend - Node
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/coverage/
+backend/.sonarqube/
+backend/dist/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/.DS_Store
+
+# Frontend - Node
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/dist/
+frontend/build/
+frontend/coverage/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.DS_Store
+
+# Root level (se houver)
 node_modules/
 .env
 .env.local
-coverage/
-.sonarqube/
 dist/
-EOF
+
+# IDE - VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IDE - WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# SonarQube
+.sonarqube/
+.scannerwork/
+sonar-project.properties
+
+# Testes
+coverage/
+.nyc_output/
+
+# Build
+dist/
+build/
+
+# Temporários
+*.swp
+*.swo
+*~
+.tmp/
+temp/
